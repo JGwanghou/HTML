@@ -20,4 +20,9 @@
     - 3_CSS 구조선택자 : first-child, nth-child(), nth-of-type()을 활용한 구조선택자 실습
     - 4_CSS 속성선택자 : 식별값을 갖는 속성을 골라 속성선택자 실습
     - 5_CSS 반응선택자 : active, hover 활용한 반응선택자 실습
-    
+ 
+## Ch04. CSS 속성
+    - 1_CSS 가시속성 : display 태그를 이용한 block, inline, block-inline 실습, visibility:hidden 실습
+    - 2_CSS 박스속성 : width, height, padding, margin, box-sizing 실습
+    - 3_CSS 배경속성 : background-img, size, repeat, position, color, 통합속성 실습
+ 
