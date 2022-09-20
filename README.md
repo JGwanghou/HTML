@@ -25,4 +25,6 @@
     - 1_CSS 가시속성 : display 태그를 이용한 block, inline, block-inline 실습, visibility:hidden 실습
     - 2_CSS 박스속성 : width, height, padding, margin, box-sizing 실습
     - 3_CSS 배경속성 : background-img, size, repeat, position, color, 통합속성 실습
- 
+    - 4_CSS 글자속성 : font 실습
+    - 5_CSS 위치속성 : position: static, relative, absolute, fixed 실습
+    - 6_CSS float 속성 : float, clear 실습
