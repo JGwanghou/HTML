@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        #wrapper {
+            width: 860px;
+            height: auto;
+            background-color: #aaa;
+            margin: 10px auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        header {
+            width: 840px;
+            height: 120px;
+            background-color: #ccc;
+            margin-bottom: 10px;
+        }
+
+        main{
+            position: relative;
+            width: 100%;
+            height: auto;
+            background-color: #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        main > section {
+            width: 400px;
+            height: 400px;
+            background-color: #eee;
+        }
+        main > aside {
+            position: absolute;
+            width: 200px;
+            height: 400px;
+            background-color: #eee;
+        }
+        main > aside:nth-of-type(1) {
+            right: 220px; bottom: 10px;
+        }
+        main > aside:nth-of-type(2) {
+            right: 10px; bottom: 10px;
+        }
+        footer{
+            width: 840px;
+            height: 100px;
+            background-color: #ccc;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>Header</h3>
+        </header>
+        <main>
+            <h3>Main</h3>
+            <Section>
+                <h3>Section</h3>
+            </Section>
+            <aside>
+                <h3>Aside #2</h3>
+            </aside>
+            <aside>
+                <h3>Aside #1</h3>
+            </aside>
+        </main>
+        <footer>
+            <h3>footer</h3>
+        </footer>
+    </div>
+</body>
+</html>
